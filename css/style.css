@@ -875,6 +875,16 @@ h1, h2, h3 {
   .gallery__grid { grid-template-columns: 1fr; grid-auto-rows: 260px; }
   .awards__inner { gap: 34px; }
   .awards__inner img { height: 66px; }
+
+  .about { padding: 64px 0 56px; }
+  .about__grid { gap: 40px; margin-bottom: 56px; }
+  .services { padding: 64px 0 40px; }
+  .awards { padding: 36px 0; }
+  .gallery { padding: 56px 0 64px; }
+  .testimonials { padding: 60px 0 64px; }
+  .location { padding: 64px 0; }
+  .cta { padding: 64px 0; }
+  .section-head { margin-bottom: 36px; }
 }
 
 @media (max-width: 600px) {
