@@ -1,0 +1,13 @@
+{
+  "name": "endocrinologista-gabriella",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Site — Dra. Gabriella Dias Azzari, Endocrinologista",
+  "scripts": {
+    "dev": "serve . -l 5179",
+    "start": "serve ."
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
