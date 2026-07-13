@@ -102,7 +102,7 @@ h1, h2, h3 {
   transition: var(--transition);
   white-space: nowrap;
 }
-.btn [data-lucide] { width: 17px; height: 17px; }
+.btn [data-lucide], .btn .icon-wa { width: 17px; height: 17px; }
 
 .btn--primary {
   background: var(--emerald);
@@ -671,7 +671,7 @@ h1, h2, h3 {
   font-size: 14px;
   color: var(--gray);
 }
-.location__details li [data-lucide] { color: var(--gold-dark); width: 17px; height: 17px; flex-shrink: 0; }
+.location__details li [data-lucide], .location__details li .icon-wa { color: var(--gold-dark); width: 17px; height: 17px; flex-shrink: 0; }
 
 .location__map {
   border-radius: var(--radius);
@@ -776,7 +776,7 @@ h1, h2, h3 {
   transition: color 0.3s ease;
 }
 .footer__col a:hover { color: var(--gold); }
-.footer__col [data-lucide] { width: 15px; height: 15px; color: var(--gold); }
+.footer__col [data-lucide], .footer__col .icon-wa { width: 15px; height: 15px; color: var(--gold); }
 
 .footer__bottom {
   text-align: center;
